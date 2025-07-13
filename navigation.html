@@ -1,0 +1,127 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    <style>
+        .navbar{
+            background-color:black;
+            border-radius:30px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style:none;
+            margin: 13px 20px;
+        }
+
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: aqua;
+        }
+        .navbar li a :hover{
+            color: white;
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border: radius 14px;
+            padding: 3px 17px;
+            width: 129px;;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+    <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">service</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact us</a></li>
+            <div class="search">
+            <input type="text" name="search" id="search" placeholder="search this website">
+        </div>
+        </ul>
+        </nav>
+    </header>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adventure Trekking</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">TrekNature</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#trails">Trails</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="banner">
+    <div class="banner-text">
+      <h1>Explore the Wilderness</h1>
+      <p>Join the best guided trekking experiences</p>
+      <button onclick="alert('Booking Coming Soon!')">Book Now</button>
+    </div>
+  </section>
+
+  <section id="trails" class="trails">
+    <h2>Popular Trails</h2>
+    <div class="trail-cards">
+      <div class="card">
+        <img src="images/pg1.jpg" alt="Trail">
+        <h3>Raigadh Fort Trek</h3>
+        <p>One-day hike to historical Raigadh with waterfalls and panoramic views.</p>
+      </div>
+      <div class="card">
+        <img src="images/pg2.jpg" alt="Camping">
+        <h3>Jungle Camping</h3>
+        <p>Experience night under the stars with bonfire and local food.</p>
+      </div>
+      <div class="card">
+        <img src="images/pg3.jpg" alt="Guide">
+        <h3>Guided Group Tours</h3>
+        <p>Explore with trained guides to ensure safety and knowledge.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>What We Offer</h2>
+    <ul>
+      <li>✅ Certified Guides</li>
+      <li>✅ Meals (Breakfast, Lunch, Dinner)</li>
+      <li>✅ First Aid & Safety</li>
+      <li>✅ Pickup & Drop</li>
+    </ul>
+  </section>
+
+  <footer id="contact">
+    <h3>Contact Us</h3>
+    <p>📞 9579142537 | 7397946430</p>
+    <p>📍 Pune, Maharashtra</p>
+    <p>© 2025 TrekNature Adventures</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
